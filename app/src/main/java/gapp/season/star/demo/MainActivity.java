@@ -9,6 +9,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import gapp.season.star.SkyStar;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -29,5 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showStarrySky(View view) {
+        SkyStar.openSkyBall(this);
+        finish();
     }
 }

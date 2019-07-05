@@ -1,0 +1,51 @@
+<resources>
+    <!--星空 / 天球-->
+    <string name="ss_app_name">SkyStar</string>
+
+    <string name="ss_ok">确定</string>
+    <string name="ss_cancel">取消</string>
+    <string name="ss_yes">是</string>
+    <string name="ss_no">否</string>
+
+    <string name="ss_sky_ball">星空</string>
+    <string name="ss_my_location">定位</string>
+    <string name="ss_run">运行</string>
+    <string name="ss_stop">停止</string>
+    <string name="ss_north_pole">北</string>
+    <string name="ss_south_pole">南</string>
+    <string name="ss_spring">春</string>
+    <string name="ss_summer">夏</string>
+    <string name="ss_autumn">秋</string>
+    <string name="ss_winter">冬</string>
+    <string name="ss_can_rotate">拖拽</string>
+    <string name="ss_change_color">背景</string>
+    <string name="ss_restore_sky_ball">还原</string>
+    <string name="ss_select_date">日期</string>
+    <string name="ss_sky_option">更多</string>
+    <string name="ss_seekbar_star_scale">天球缩放</string>
+    <string name="ss_seekbar_star_size">星体缩放</string>
+    <string name="ss_seekbar_star_ratio">亮度对比</string>
+    <string name="ss_seekbar_star_name">标识密度</string>
+    <string name="ss_seekbar_star_line">天球标线</string>
+    <string name="ss_seekbar_star_speed">运行速度</string>
+    <string name="ss_location_top">置于天顶</string>
+    <string name="ss_location_bottom">置于天底</string>
+
+    <string name="ss_screenshot_skyball">截图当前显示的星空</string>
+    <string name="ss_screenshot_file_name">星空截图-%d.jpg</string>
+    <string name="ss_screenshot_s">截图成功</string>
+    <string name="ss_screenshot_f">截图失败</string>
+    <string name="ss_show_all_star">显示全部亮度的星星：</string>
+    <string name="ss_show_star_cn_name">显示星星的中国古名：</string>
+    <string name="ss_show_sun_moon">显示太阳月亮位置：</string>
+    <string name="ss_show_solar_planet">显示太阳系大行星：</string>
+    <string name="ss_select_sky_time">选择指定时间</string>
+    <string name="ss_restore_date_tips">确定要将日期还原到系统当前时间吗？</string>
+    <string name="ss_star_info">天体信息</string>
+
+    <color name="ss_transparent">#00000000</color>
+    <color name="ss_white">#FFFFFF</color>
+    <color name="ss_dark">#757575</color>
+    <color name="ss_blue">#0088FF</color>
+    <color name="ss_color_btn_pressed">#9987CEEB</color>
+</resources>
