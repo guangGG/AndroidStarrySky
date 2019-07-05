@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release' //必须放在'com.android.library'插件后
 
 android {
     compileSdkVersion 28
@@ -23,6 +24,11 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    //build打包时报错不中断
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
@@ -32,4 +38,14 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+//配置仓库信息
+publish {
+    userOrg = 'guanggg'
+    groupId = 'gapp.season'
+    artifactId = 'skystar'
+    publishVersion = '1.0.0'
+    desc = 'A star display plug-in'
+    website = 'https://github.com/guangGG/AndroidStarrySky'
 }
