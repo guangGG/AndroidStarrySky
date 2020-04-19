@@ -25,3 +25,6 @@ SkyStar.config(isdev, defaultLuminance, pageTheme);
 //Show StarrySky
 SkyStar.openSkyBall(context);
 ```
+
+## Preview
+<img src="assets/screenshot-star-1.jpg" alt="screenshot" width="360" height="780" /> <img src="assets/screenshot-star-2.jpg" alt="screenshot" width="360" height="780" />
